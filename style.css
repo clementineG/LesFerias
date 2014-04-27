@@ -1,0 +1,289 @@
+	body
+	{	
+	margin:auto;background-image: url("images/fond2(2).jpg"); background-color:Cornsilk ;background-repeat: no-repeat;
+	}
+
+	#bloc-page 
+	{
+	margin : auto;	 width : 900px; background-color:white; border-radius:15px ; border: 5px black groove;
+	margin-top:225px;margin-bottom:30px; padding:10px; padding-bottom:0px;
+	}
+	
+	.titre
+	{
+	/*border-radius:10px ;border: 5px solid black;*/ margin:auto;width:650px;text-align:center;
+	margin-top:20px;font-size:115px;color:black;font-family:'Original Surfer',"Comic Sans MS";
+	text-shadow:white 1px 1px 5px,white -1px 1px 5px,white -1px -1px 5px,white 1px -1px 5px ;
+	}	
+
+	
+/* 			"bienvenur accueil"			*/
+	#accueil1 
+	{
+	color:red;font-size:50px;
+	}
+	
+	#accueil2{
+	color:white;text-shadow:black 1px 1px 2px,black -1px 1px 2px,black -1px -1px 2px,black 1px -1px 2px ;font-size:50px;
+	}
+	
+	#accueil3
+	{
+	color:green;font-size:50px;
+	}
+
+
+	.menu
+	{
+	text-align: right;
+	}
+	nav li 
+	{
+	display:inline;font-size:17px;text-shadow:1px 1px 1px #999;
+	}
+
+	nav a
+	{
+	text-decoration: none;text-transform:uppercase;
+	}
+
+	header 
+	{
+	width:100%; background-color:#C00000 ;height:75px;
+	}
+
+	header {
+	
+	/* Navigateurs récents */
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(red),
+		to(#C00001)
+	);
+	background: -webkit-linear-gradient(
+		top,
+		red,
+		#C00001
+	);
+	background: -moz-linear-gradient(
+		top,
+		red,
+		#C00001
+	);
+	background: -o-linear-gradient(
+		top,
+		red,
+		#C00001
+	);
+	background: linear-gradient(
+		top,
+		red,
+		#C00001
+	);
+
+}
+
+	header ul 
+	{
+	padding-top:30px;font-family:"corbel";color:white; font-weight:bold;
+	}
+	
+	header ul li a
+	{
+	color:black;text-decoration:none;
+	}
+	
+	header .menu li:hover a
+	{
+	color:#202020 ;text-shadow:white 1px 1px 5px,white -1px 1px 5px,white -1px -1px 5px,white 1px -1px 5px ;font-weight:bold;
+	}
+	
+	header .menu 
+	{
+	float:right; padding-right:20px;
+	}
+	
+	.toro 
+	{
+	padding-left:45px;
+	}
+	
+	header .menu li:hover, header .menu li.selected 
+	{
+	cursor:pointer;color:#F60;background:url(images/ico_top.png) no-repeat center;padding-bottom:58px; 
+	}
+	
+	/*header .menu li:hover a {color:red;padding-bottom:25px;}*/
+	
+	a:hover
+	{
+	color:#E00B0E;
+	}
+	
+	a
+	{
+	color:#0BAA00;
+	}
+
+	.s
+	{
+	text-decoration: underline;
+	}
+	
+	.g
+	{
+	font-weight:bold
+	}
+	
+	h2 
+	{
+	font-size:40px;font-family:"Trebuchet MS";text-indent:0px;/*text-decoration: underline;*/ padding-top:4px;
+	}
+	
+	.colorred 
+	{
+	color:DarkRed;
+	}
+
+	/* 					Entetes 							*/
+	.banniere-accueil {
+	height: 200px;border-radius: 10px;
+	background: url('images/image2.jpg') no-repeat;box-shadow: 0px 4px 4px red;
+	}
+	
+	.banniere-presentation 	{
+	height: 200px;border-radius: 10px;
+	background: url('images/feriaAccueil.png') no-repeat;box-shadow: 0px 4px 4px red;
+	}
+	
+	.banniere-agenda {
+	height: 200px;border-radius: 10px;
+	background: url('images/ban2.png') no-repeat;box-shadow: 0px 4px 4px red;
+	}
+	
+	.banniere-indisp {
+	height: 200px;border-radius: 10px;
+	 background: url('images/ban4.jpg') no-repeat;box-shadow: 0px 4px 4px red;
+	}
+	.banniere-histoire {
+	height: 200px;border-radius: 10px;
+	background: url('images/ban5.jpg') no-repeat;box-shadow: 0px 4px 4px red;
+	}
+		
+
+		
+	.texte-banniere {
+	margin:00px;margin-left:20px; color:red; font-size:70px;font-family: Candara; 
+	text-shadow:black 1px 1px 1px,black -1px 1px 1px,black -1px -1px 1px,black 1px -1px 1px ;
+	}
+
+	.bloc-texte{
+	text-indent:40px;font-size:14px;font-family:"Candara";text-align: justify; padding:0px 30px;
+	}
+	
+	.txt-debut{
+	text-indent:40px;font-size:18px;font-family:"Candara";text-align: justify; padding:25px;padding-bottom:0px;
+	}
+	
+	.txt-debut1{
+	text-indent:40px;font-size:18px;font-family:"Candara";text-align: justify; padding:-10px;padding-bottom:0px;
+	}
+
+	 /* ------------------------agenda---------------------------------- */
+	#bloc-dates {
+	text-indent:5px;
+	}
+	
+	#bloc-dates p {
+	padding:0px; margin:0px; 
+	}
+	
+	h6 {
+	color:DarkRed; font-size:20px; padding:0px; margin:0px;  
+	}
+	
+	h5 {
+	color:orange;font-size:15px;padding:0px;margin:0px;
+	}
+	/* ------------------------------------------------------------- */
+
+	/*                  les indispensable				*/
+
+	.imgTenue{
+	display: inline-block;position: absolute; left: 820px; top: 690px; 
+	}
+	
+	#texte-tenue{
+	display:inline-block;vertical-align:top;text-align: justify;padding-right:250px;text-indent:15px;
+	}
+	
+	#texte-transport{
+	display:inline-block;vertical-align:top;text-align: justify;padding-right:20px;padding-bottom:50px;text-indent:15px; 
+	}
+	
+	#texte-hebergement{
+	display:inline-block;text-align: justify; left:200px;padding-right:20px;padding-bottom:40px;text-indent:15px;
+	} 
+
+
+	.imgcamp {position:relative; left:350px;top:-220px;padding:-50px;margin-bottom:-180px;}
+	.liste {text-indent:10px;}
+
+	.texte-transport ul {margin-left:280px;margin-top:30px;display: inline-block; position:absolute; float:right;/*left:300px;*/ width:450px;text-indent:15px;}
+	#imgbus{display:inline-block; float:left;margin-left:50px;width:25%;} 
+
+	/* 				HISTORIQUE					*/
+	.txt-sign{padding-bottom:14px;padding-left:330px;}
+	.imgsign{display: inline-block;position: absolute; left:210px; top: 630px;}
+	h3{font-size:25px; text-indent:20px; color: DarkRed;}
+	.imgtxupi {width =45%; padding-left: 80px;  margin-top: 30px;margin-bottom:30px;}
+	.txt-pamp a{text-align:right;}
+	 
+	.contact{display:inline-block; position:absolute; left:50px;}
+	.contact a:hover{font-size:60%;}
+	 
+	 .mail1{display:inline-block; position:absolute; left:770px; top: 1378px;}
+	 
+	.galerie_photos{text-align:center;}	
+	.flecheNav{text-align:center; margin-left:5px; margin-bottom:0px; margin-top:20px;}
+		
+	footer {position:relative;background-color:#C00000; width:100%; height:88px;}
+	footer {
+		/* Anciens navigateurs */
+		background: url("footer-bg.png") repeat-x top;
+		-o-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		/* Navigateurs récents */
+		background: -webkit-gradient(
+			linear,
+			left top, left bottom,
+			from(red),
+			to(#C00001)
+		);
+		background: -webkit-linear-gradient(
+			top,
+			red,
+			#C00001
+		);
+		background: -moz-linear-gradient(
+			top,
+			red,
+			#C00001
+		);
+		background: -o-linear-gradient(
+			top,
+			red,
+			#C00001
+		);
+		background: linear-gradient(
+			top,
+			red,
+			#C00001
+		);
+
+	}
+	#textefin {font-family:"Courier New";font-size:75%;text-align:center;padding-top:15px;color:#FAF0E6;}
+	.ilove {position:absolute; top:-145px ; left:1145px;}
